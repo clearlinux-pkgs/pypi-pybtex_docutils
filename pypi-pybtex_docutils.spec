@@ -4,7 +4,7 @@
 #
 Name     : pypi-pybtex_docutils
 Version  : 1.0.1
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/41/3b/69c21deab7974b76018124b441c059edc6d6cec970ac038e5f62682eac8a/pybtex-docutils-1.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/41/3b/69c21deab7974b76018124b441c059edc6d6cec970ac038e5f62682eac8a/pybtex-docutils-1.0.1.tar.gz
 Summary  : A docutils backend for pybtex.
@@ -14,9 +14,6 @@ Requires: pypi-pybtex_docutils-license = %{version}-%{release}
 Requires: pypi-pybtex_docutils-python = %{version}-%{release}
 Requires: pypi-pybtex_docutils-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pybtex-docutils
-Provides: pybtex-docutils-python
-Provides: pybtex-docutils-python3
 BuildRequires : pypi(docutils)
 BuildRequires : pypi(pybtex)
 
@@ -64,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641473387
+export SOURCE_DATE_EPOCH=1651015692
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
