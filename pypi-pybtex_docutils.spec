@@ -5,7 +5,7 @@
 #
 Name     : pypi-pybtex_docutils
 Version  : 1.0.3
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/7e/84/796ea94d26188a853660f81bded39f8de4cfe595130aef0dea1088705a11/pybtex-docutils-1.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7e/84/796ea94d26188a853660f81bded39f8de4cfe595130aef0dea1088705a11/pybtex-docutils-1.0.3.tar.gz
 Summary  : A docutils backend for pybtex.
